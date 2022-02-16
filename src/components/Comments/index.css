@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-right: 200px;
+  padding-left: 200px;
+  width: 100%;
+}
+
+.form-image-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-carousal {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-class {
+  padding: 10px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #0284c7;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.line {
+  border: 1px solid #1e293b;
+  width: 100%;
+}
+
+.comment-count {
+  background-color: #0284c7;
+  padding: 5px;
+  color: white;
+  margin-right: 5px;
+  border-radius: 5px;
+}
